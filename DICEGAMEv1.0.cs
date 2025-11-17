@@ -11,7 +11,7 @@ bool win = false;
 bool playing = true;
 int wins = 0;
 int losses = 0;
-int coins = 110;
+int coins = 0;
 bool Double;
 bool Tripple;
 string DoubleWin;
@@ -259,4 +259,5 @@ else if (win == false)
     You Lost!"
     );
     }
+
     }; //End While Loop
